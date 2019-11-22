@@ -11,7 +11,13 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.projectKey>shivanshkr_maven-quickstart</sonar.projectKey>
+		<sonar.organization>shivanshkr</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>562b4056823cd1602771b2f9be3aab3ff80307a0</sonar.login>
   </properties>
 
   <dependencies>
