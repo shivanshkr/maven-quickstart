@@ -45,6 +45,18 @@
 			    <mainClass>com.infy.demos.maven_quickstart.App</mainClass>
 			  </configuration>
 		</plugin>
+		<plugin> 
+			<groupId>org.sonarsource.scanner.maven</groupId> 
+			<artifactId>sonar-maven-plugin</artifactId> 
+			<version>${sonar.maven.version}</version> 
+			<executions>
+				<execution>
+					<goals> 
+						<goal>sonar</goal>
+					</goals> 
+				</execution> 
+			</executions>
+		</plugin>
 		<plugin>
 	      <!-- Build an executable JAR -->
 	      <groupId>org.apache.maven.plugins</groupId>

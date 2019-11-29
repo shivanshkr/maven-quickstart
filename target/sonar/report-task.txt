@@ -1,7 +1,0 @@
-organization=shivanshkr
-projectKey=shivanshkr_maven-quickstart
-serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.2898
-dashboardUrl=https://sonarcloud.io/dashboard?id=shivanshkr_maven-quickstart
-ceTaskId=AW6R2tsiI-eUIgqOq3lZ
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AW6R2tsiI-eUIgqOq3lZ
