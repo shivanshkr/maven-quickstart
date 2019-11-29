@@ -14,10 +14,9 @@
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<maven.compiler.target>1.6</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<sonar.projectKey>shivanshkr_maven-quickstart</sonar.projectKey>
-		<sonar.organization>shivanshkr</sonar.organization>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.login>562b4056823cd1602771b2f9be3aab3ff80307a0</sonar.login>
+		
+		<sonar.host.url>localhost:9000</sonar.host.url>
+		<sonar.login>afaafbaee3fd2a1d6aa974e2a0fad27f37508ba5</sonar.login>
   </properties>
 
   <dependencies>
@@ -48,14 +47,8 @@
 		<plugin> 
 			<groupId>org.sonarsource.scanner.maven</groupId> 
 			<artifactId>sonar-maven-plugin</artifactId> 
-			<version>${sonar.maven.version}</version> 
-			<executions>
-				<execution>
-					<goals> 
-						<goal>sonar</goal>
-					</goals> 
-				</execution> 
-			</executions>
+			<version>3.6.1.1688</version> 
+
 		</plugin>
 		<plugin>
 	      <!-- Build an executable JAR -->

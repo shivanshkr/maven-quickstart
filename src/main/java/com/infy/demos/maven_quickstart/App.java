@@ -15,5 +15,9 @@ public class App
 	z = x + y;
 	z = x + y;
 	System.out.println( "The value of " + x + " + " + y + " = " + z );
+	System.out.println( "The value of " + x + " + " + y + " = " + z );
+	System.out.println( "The value of " + x + " + " + y + " = " + z );
+	System.out.println( "The value of " + x + " + " + y + " = " + z );
+	System.out.println( "The value of " + x + " + " + y + " = " + z );
     }
 }
